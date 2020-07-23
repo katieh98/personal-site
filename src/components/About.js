@@ -16,7 +16,8 @@ class About extends React.Component {
                 interests include watching movies, cooking, traveling (even though I haven't gone many
                places), and playing games with friends.
                <br /><br />
-               My inbox is always open! Feel free to contact me whether it's to just say hi, ask questions, or make suggestions.
+               My inbox is always open! Feel free to contact me whether it's to just say hi or ask questions.
+               <br />Please feel free to make suggestions for the site since this is my first time using ReactJS!
             </p>
 
             <Figure>
