@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin:auto;
+  position: relative;
 }
 
 .App-logo {
@@ -35,4 +37,63 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h4 {
+  text-align: left;
+}
+
+.header-img {
+  width: 200px;
+}
+
+.center-navbar {
+  float: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p {
+  text-align: left;
+}
+
+div.container {
+  width: 60%;
+}
+
+.company {
+  background-color: rgba(241,203,255);
+  border-style: solid;
+  border-color: rgba(241,203,255);
+  padding: 5px;
+}
+
+.location {
+  border-color: rgba(225,247,213);
+  background-color: rgba(225,247,213);
+  border-style: solid;
+  padding: 5px;
+}
+
+.calendar {
+  background-color: rgba(201,201,255);
+  border-color:  rgba(201,201,255);
+  border-style: solid;
+  padding: 5px;
+}
+
+.skill {
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  padding: 5px;
+}
+
+.footer {
+  text-align: center;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  font-size: 10px;
 }
