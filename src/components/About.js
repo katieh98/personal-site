@@ -1,10 +1,7 @@
 import React from 'react'
 import travel from "./images/cayman.JPG"
-import email from "./images/email.png"
-import git from "./images/git.png"
-import link from "./images/linkedin.png"
 import Figure from 'react-bootstrap/Figure'
-import Button from 'react-bootstrap/Button'
+
 import { WindupChildren, Pause, Pace } from "windups";
 
 class About extends React.Component {
@@ -23,6 +20,17 @@ class About extends React.Component {
                <br />Please feel free to make suggestions for the site since this is my first time using ReactJS!
             </p>
 
+            <Figure>
+              <Figure.Image
+                width={300}
+                height={300}
+                alt="Travel pic"
+                src={travel}
+                />
+            <Figure.Caption>
+              My last travel destination: Grand Cayman Islands
+              </Figure.Caption>
+              </Figure>
           </div>);
   }
 }

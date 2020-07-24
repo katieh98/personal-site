@@ -1,4 +1,7 @@
 import React from 'react'
+import email from "./images/email.png"
+import git from "./images/git.png"
+import link from "./images/linkedin.png"
 
 class Socials extends React.Component {
   render() {
