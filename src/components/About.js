@@ -1,41 +1,54 @@
 import React from 'react'
 import travel from "./images/cayman.JPG"
+import email from "./images/email.png"
+import git from "./images/git.png"
+import link from "./images/linkedin.png"
 import Figure from 'react-bootstrap/Figure'
-
+import Button from 'react-bootstrap/Button'
 import { WindupChildren, Pause, Pace } from "windups";
 
 class About extends React.Component {
   render() {
     return (<div className="container"><br/><br/>
             <h3><StringyWindup/></h3>
-            <div className="about-photo" style="float:left; display:inline-block; ">
-              <span style="float:left; width:20%;">
-              <Figure>
-                <Figure.Image
-                  width={300}
-                  height={300}
-                  alt="Travel pic"
-                  src={travel}
-                  />
-              <Figure.Caption>
-                My last travel destination: Grand Cayman Islands
-                </Figure.Caption>
-                </Figure>
-                </span>
-                <span style="float:right; width: 80%;">
-            <p style="float:right; display:block">
+            <p>
               I'm an undergraduate student at Virginia Tech pursuing my degree in Computer Science.
               Currently, I live in Northern Virginia and am searching for full time employment after
               I graduate in December 2020. I have experience with software development through
                my internships and personal projects but am always looking to learn more. My
                 interests include watching movies, cooking, traveling (even though I haven't gone many
                places), and playing games with friends.
+               <br /><br />
+               My inbox is always open! Feel free to contact me whether it's to just say hi or ask questions.
+               <br />Please feel free to make suggestions for the site since this is my first time using ReactJS!
             </p>
-            </span>
+
+            <div className="text-center">
+              <a href="mailto:kate.harold@pm.me">
+                <img src={email} width="15" height="15" hspace="5" alt="email" />
+              </a>
+
+              <a href="https://www.linkedin.com/in/kate-harold/" target="_blank">
+                <img src={link} width="15" height="15" hspace="5" alt="link" />
+              </a>
+
+              <a href="https://github.com/katieh98" target="_blank">
+                <img src={git} width="15" height="15" hspace="5" alt="git" />
+              </a>
             </div>
-            <p>
-            My inbox is always open! Feel free to contact me whether it's to just say hi or ask questions.
-            <br />Please feel free to make suggestions for the site since this is my first time using ReactJS! </p>
+            // <Image
+            // <Figure>
+            //   <Figure.Image
+            //     width={300}
+            //     height={300}
+            //     fluid
+            //     alt="Travel pic"
+            //     src={travel}
+            //     />
+            // <Figure.Caption>
+            //   My last travel destination: Grand Cayman Islands
+            //   </Figure.Caption>
+            //     </Figure>
           </div>);
   }
 }
