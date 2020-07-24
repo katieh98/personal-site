@@ -6,7 +6,7 @@ class NavBar extends React.Component {
   render() {
     return(
       <div className="container">
-      <div className="center-navbar">
+      <div className="text-center">
         <Navbar>
           <Navbar.Brand href="/">Home</Navbar.Brand>
           <Navbar.Brand href="/About">About</Navbar.Brand>
