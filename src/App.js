@@ -18,7 +18,7 @@ export default function App() {
   return (
     <div className="App">
     <h1>
-      {'Current width -> ${width}'}
+      {`Current width -> ${width}`}
       </h1>
     <Header />
     <BrowserRouter>
