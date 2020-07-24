@@ -36,19 +36,7 @@ class About extends React.Component {
                 <img src={git} width="15" height="15" hspace="5" alt="git" />
               </a>
             </div>
-            // <Image
-            // <Figure>
-            //   <Figure.Image
-            //     width={300}
-            //     height={300}
-            //     fluid
-            //     alt="Travel pic"
-            //     src={travel}
-            //     />
-            // <Figure.Caption>
-            //   My last travel destination: Grand Cayman Islands
-            //   </Figure.Caption>
-            //     </Figure>
+
           </div>);
   }
 }

@@ -17,9 +17,6 @@ export default function App() {
   let width = useCurrentWitdh();
   return (
     <div className="App">
-    <h1>
-      {`Current width -> ${width}`}
-      </h1>
     <Header />
     <BrowserRouter>
       <NavBar />
