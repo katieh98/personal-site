@@ -16,7 +16,7 @@ class Socials extends React.Component {
         </a>
 
         <a href="https://github.com/katieh98" target="_blank">
-          <img src={git} width="30" height="30" hspace="5" vspace="3" alt="git" />
+          <img src={git} width="30" height="30" hspace="5" alt="git" />
         </a>
         </div>
     );
