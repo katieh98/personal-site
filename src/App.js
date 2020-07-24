@@ -12,12 +12,12 @@ import Header from "./components/Header"
 import About from "./components/About"
 import Home from "./components/Home"
 import Footer from "./components/Footer"
+import Socials from "./components/Socials"
 
 export default function App() {
-  const size = useWindowSize();
+  let width = useCurrentWitdh();
   return (
     <div className="App">
-    {size.width}px / {size.height}px
     <Header />
     <BrowserRouter>
       <NavBar />
@@ -26,36 +26,41 @@ export default function App() {
           <Route exact path="/" component={Home} />
         </Switch>
     </BrowserRouter>
+    <Socials />
     <Footer />
     </div>
   );
 }
 
 // Hook to resize
-function useWindowSize() {
-  const isClient = typeof window === 'object';
+const getWidth = () => window.innerWidth
+  || document.documentElement.clientWidth
+  || document.body.clientWidth;
 
-  function getSize() {
-    return {
-      width: isClient ? window.innerWidth : undefined,
-      height: isClient ? window.innerHeight : undefined
-    };
-  }
+function useCurrentWitdh() {
+  // save current window width in the state object
+  let [width, setWidth] = useState(getWidth());
 
-  const [windowSize, setWindowSize] = useState(getSize);
-
+  // in this case useEffect will execute only once because
+  // it does not have any dependencies.
   useEffect(() => {
-    if (!isClient) {
-      return false;
+    // timeoutId for debounce mechanism
+    let timeoutId = null;
+    const resizeListener = () => {
+      // prevent execution of previous setTimeout
+      clearTimeout(timeoutId);
+      // change width from the state object after 150 milliseconds
+      timeoutId = setTimeout(() => setWidth(getWidth()), 150);
+    };
+    // set resize listener
+    window.addEventListener('resize', resizeListener);
+
+    // clean up function
+    return () => {
+      // remove resize listener
+      window.removeEventListener('resize', resizeListener);
     }
+  }, [])
 
-    function handleResize() {
-      setWindowSize(getSize());
-    }
-
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []); // Empty array ensures that effect is only run on mount and unmount
-
-  return windowSize;
+  return width;
 }

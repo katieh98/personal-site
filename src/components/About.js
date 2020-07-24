@@ -28,9 +28,9 @@ class About extends React.Component {
                 src={travel}
                 />
             <Figure.Caption>
-    My last travel destination: Grand Cayman Islands
-  </Figure.Caption>
-</Figure>
+              My last travel destination: Grand Cayman Islands
+              </Figure.Caption>
+              </Figure>
           </div>);
   }
 }
