@@ -12,6 +12,7 @@ import Header from "./components/Header"
 import About from "./components/About"
 import Home from "./components/Home"
 import Footer from "./components/Footer"
+import Socials from "./components/Socials"
 
 export default function App() {
   let width = useCurrentWitdh();
@@ -25,6 +26,7 @@ export default function App() {
           <Route exact path="/" component={Home} />
         </Switch>
     </BrowserRouter>
+    <Socials />
     <Footer />
     </div>
   );
