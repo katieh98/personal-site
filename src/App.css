@@ -1,7 +1,7 @@
 .App {
   text-align: center;
-  margin:auto;
   position: relative;
+  margin: auto;
 }
 
 .App-logo {
@@ -57,10 +57,10 @@ h6 {
 }
 
 .center-navbar {
-  float: none;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 p {
@@ -71,6 +71,7 @@ p {
   .container {
     text-align: center;
     background-color: blue;
+    margin: 0;
   }
 }
 
