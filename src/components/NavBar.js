@@ -5,7 +5,6 @@ import pdf from "../docs/Kate_Harold_Resume.pdf"
 class NavBar extends React.Component {
   render() {
     return(
-      <div className="container">
       <div className="center-navbar">
         <Navbar>
           <Navbar.Brand href="/">Home</Navbar.Brand>
@@ -13,8 +12,7 @@ class NavBar extends React.Component {
           <Navbar.Brand href={pdf} target="_blank">Resume</Navbar.Brand>
           </Navbar>
           </div>
-      </div>
-        )
+        );
       }
 }
 
