@@ -15,7 +15,7 @@ import Footer from "./components/Footer"
 import Socials from "./components/Socials"
 
 export default function App() {
-  let width = useCurrentWitdh();
+
   return (
     <div className="App">
     <Header />
