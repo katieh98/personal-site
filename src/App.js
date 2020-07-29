@@ -1,6 +1,4 @@
 import './App.css';
-import '@expo/match-media'
-import { useMediaQuery } from "react-responsive";
 import React from "react";
 import { useState, useEffect } from 'react';
 import {
@@ -8,7 +6,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-
+import '@expo/match-media'
 import NavBar from "./components/NavBar"
 import Header from "./components/Header"
 import About from "./components/About"
@@ -18,12 +16,6 @@ import Socials from "./components/Socials"
 
 export default function App() {
   let width = useCurrentWitdh();
-
-  const isTabletOrMobile = useMediaQuery({maxDeviceWidth: 1224, query: "(max-device-width: 1224px)"});
-
-  if (isTabletOrMobile) {
-    return (<div> hi mobile </div);
-  }
   return (
     <div className="App">
     <Header />
