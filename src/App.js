@@ -6,7 +6,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import '@expo/match-media'
+
 import NavBar from "./components/NavBar"
 import Header from "./components/Header"
 import About from "./components/About"
