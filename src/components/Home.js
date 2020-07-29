@@ -6,8 +6,7 @@ import cal from "./images/calendar.png"
 
 class Home extends React.Component {
   render() {
-    return (<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <div className="visible-phone">
+    return (<div className="container">
       <br /> <br />
       <h4>Education</h4>
         <p><strong>B.S. Computer Science</strong><br/>
@@ -31,11 +30,11 @@ class Home extends React.Component {
           <h6><Badge pill className="company">
                 <img src={comp} width="15" height="15" hspace="5" alt="company" />
                   BAESystems
-              </Badge>{'  '}
+              </Badge>{' '}
               <Badge pill className="location"><img src={pin} width="15" height="15" alt="pin" /> Washington, DC (Remote)
-                </Badge>{'  '}
+                </Badge>{' '}
                 <Badge pill className="calendar"><img src={cal} width="15" height="15" alt="pin" /> June 2020 - August 2020
-                  </Badge>{'  '}
+                  </Badge>{' '}
               </h6>
             Obtained a secret clearance for this position. Worked on migrating a web
             application from Struts 1 to Struts 2. Wrote Java action classes for database access as
@@ -44,66 +43,17 @@ class Home extends React.Component {
         <p><strong>Software Development Intern</strong> <br />
           <h6><Badge pill className="company">
               <img src={comp} width="15" height="15" hspace="5" alt="company" />
-                Freddie Mac</Badge>{'  '}
+                Freddie Mac</Badge>{' '}
               <Badge pill className="location"><img src={pin} width="12" height="12" alt="pin" /> McLean, VA
-                </Badge>{'  '}
+                </Badge>{' '}
               <Badge pill className="calendar"><img src={cal} width="15" height="15" alt="pin" /> May 2019 - August 2019
-                </Badge>{'  '}
+                </Badge>{' '}
             </h6>
             Analyzed and documented legacy programs to support loan evaluation and validation.
             Gained experience with RapidSQL, Spring Boot, and Java.
-        </p></div>
-
-       <div className="visible-desktop">
-         <br /> <br />
-         <h4>Education</h4>
-           <p><strong>B.S. Computer Science</strong><br/>
-           Virgina Tech, Blacksburg, VA<br/>
-           August 2017 - December 2020<br/>
-           GPA: 3.48/4.00</p>
-         <h4>Technical Skills</h4>
-         <h5><Badge className="skill">Java</Badge>{' '}
-             <Badge className="skill">Python</Badge>{' '}
-             <Badge className="skill">HTML</Badge>{' '}
-             <Badge className="skill">JavaScript</Badge>{' '}
-             <Badge className="skill">CSS</Badge>{' '}
-             <Badge className="skill">SQL</Badge>{' '}
-             <Badge className="skill">ReactJS</Badge>{' '}
-             <Badge className="skill">JSON</Badge>{' '}
-             <Badge className="skill">Linux CLI</Badge>{' '}
-             <Badge className="skill">GitHub</Badge>{' '} <br />
-       </h5>
-         <h4>Work Experience</h4>
-           <p><strong>Technical Intern</strong> <br />
-             <h6><Badge pill className="company">
-                   <img src={comp} width="15" height="15" hspace="5" alt="company" />
-                     BAESystems
-                 </Badge>{' '}
-                 <Badge pill className="location"><img src={pin} width="15" height="15" alt="pin" /> Washington, DC (Remote)
-                   </Badge>{' '}
-                   <Badge pill className="calendar"><img src={cal} width="15" height="15" alt="pin" /> June 2020 - August 2020
-                     </Badge>{' '}
-                 </h6>
-               Obtained a secret clearance for this position. Worked on migrating a web
-               application from Struts 1 to Struts 2. Wrote Java action classes for database access as
-               well as the JavaScript to connect the action classes to the front end.
-           </p>
-           <p><strong>Software Development Intern</strong> <br />
-             <h6><Badge pill className="company">
-                 <img src={comp} width="15" height="15" hspace="5" alt="company" />
-                   Freddie Mac</Badge>{' '}
-                 <Badge pill className="location"><img src={pin} width="12" height="12" alt="pin" /> McLean, VA
-                   </Badge>{' '}
-                 <Badge pill className="calendar"><img src={cal} width="15" height="15" alt="pin" /> May 2019 - August 2019
-                   </Badge>{' '}
-               </h6>
-               Analyzed and documented legacy programs to support loan evaluation and validation.
-               Gained experience with RapidSQL, Spring Boot, and Java.
-           </p>
-           <div> < br/>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-          <br /></div>
-          <div> < br/>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-         <br /></div>
+        </p>
+        <div> < br/>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+       <br /></div>
     );
   }
 }
