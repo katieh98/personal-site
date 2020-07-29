@@ -52,9 +52,7 @@ class Home extends React.Component {
             </h6>
             Analyzed and documented legacy programs to support loan evaluation and validation.
             Gained experience with RapidSQL, Spring Boot, and Java.
-        </p>
-        <div> < br/>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-       <br /></div>
+        </p></div>
 
        <div className="visible-desktop">
          <br /> <br />
@@ -88,7 +86,7 @@ class Home extends React.Component {
                  </h6>
                Obtained a secret clearance for this position. Worked on migrating a web
                application from Struts 1 to Struts 2. Wrote Java action classes for database access as
-               well as the scripts to connect the action classes to the front end.
+               well as the JavaScript to connect the action classes to the front end.
            </p>
            <p><strong>Software Development Intern</strong> <br />
              <h6><Badge pill className="company">
@@ -104,6 +102,8 @@ class Home extends React.Component {
            </p>
            <div> < br/>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
           <br /></div>
+          <div> < br/>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+         <br /></div>
     );
   }
 }
