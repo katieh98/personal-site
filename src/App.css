@@ -1,7 +1,7 @@
 .App {
   text-align: center;
+  margin:auto;
   position: relative;
-  margin: auto;
 }
 
 .App-logo {
@@ -57,17 +57,17 @@ h6 {
 }
 
 .center-navbar {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
+  float: none;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 p {
   text-align: left;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 760px) {
   .container {
     text-align: center;
     background-color: blue;
