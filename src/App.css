@@ -67,15 +67,18 @@ p {
   text-align: left;
 }
 
+.container {
+  width: 60%;
+}
+
 @media only screen and (max-width: 760px) {
   .container {
     text-align: center;
     background-color: blue;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
   }
-}
-
-.container {
-  width: 60%;
 }
 
 .company {
