@@ -30,11 +30,11 @@ class Home extends React.Component {
           <h6><Badge pill className="company">
                 <img src={comp} width="15" height="15" hspace="5" alt="company" />
                   BAESystems
-              </Badge>{'  '}
+              </Badge>{' '}
               <Badge pill className="location"><img src={pin} width="15" height="15" alt="pin" /> Washington, DC (Remote)
-                </Badge>{'  '}
+                </Badge>{' '}
                 <Badge pill className="calendar"><img src={cal} width="15" height="15" alt="pin" /> June 2020 - August 2020
-                  </Badge>{'  '}
+                  </Badge>{' '}
               </h6>
             Obtained a secret clearance for this position. Worked on migrating a web
             application from Struts 1 to Struts 2. Wrote Java action classes for database access as
@@ -43,11 +43,11 @@ class Home extends React.Component {
         <p><strong>Software Development Intern</strong> <br />
           <h6><Badge pill className="company">
               <img src={comp} width="15" height="15" hspace="5" alt="company" />
-                Freddie Mac</Badge>{'  '}
+                Freddie Mac</Badge>{' '}
               <Badge pill className="location"><img src={pin} width="12" height="12" alt="pin" /> McLean, VA
-                </Badge>{'  '}
+                </Badge>{' '}
               <Badge pill className="calendar"><img src={cal} width="15" height="15" alt="pin" /> May 2019 - August 2019
-                </Badge>{'  '}
+                </Badge>{' '}
             </h6>
             Analyzed and documented legacy programs to support loan evaluation and validation.
             Gained experience with RapidSQL, Spring Boot, and Java.
