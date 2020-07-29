@@ -22,7 +22,7 @@ export default function App() {
   const isTabletOrMobile = useMediaQuery({maxDeviceWidth: 1224, query: "(max-device-width: 1224px)"});
 
   if (isTabletOrMobile) {
-    return (<Text> hi mobile </Text)
+    return (<header className="text-center"> hi mobile </header)
   }
   return (
     <div className="App">
