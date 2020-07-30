@@ -33,7 +33,7 @@ class Home extends React.Component {
               </Badge>{' '}
               <Badge pill className="location"><img src={pin} width="15" height="15" alt="pin" /> Washington, DC (Remote)
                 </Badge>{' '}
-                <Badge pill className="calendar"><img src={cal} width="15" height="15" alt="pin" /> June 2020 - August 2020
+                <Badge pill className="calendar"><img src={cal} width="15" height="15" alt="pin" /> June 2020 - Present
                   </Badge>{' '}
               </h6>
             Obtained a secret clearance for this position. Worked on migrating a web
