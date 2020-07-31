@@ -85,6 +85,7 @@ p {
   border-style: solid;
   border-color: rgba(241,203,255);
   padding: 5px;
+  margin: 3px; 
 }
 
 .location {
@@ -92,6 +93,7 @@ p {
   background-color: rgba(225,247,213);
   border-style: solid;
   padding: 5px;
+  margin: 3px;
 }
 
 .calendar {
@@ -99,6 +101,7 @@ p {
   border-color:  rgba(201,201,255);
   border-style: solid;
   padding: 5px;
+  margin: 3px;
 }
 
 .skill {
@@ -108,6 +111,7 @@ p {
   padding: 5px;
   padding-bottom: 5px;
   padding-top: 5px;
+  margin: 3px;
 }
 
 .footer {
