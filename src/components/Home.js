@@ -36,9 +36,10 @@ class Home extends React.Component {
                 <Badge pill className="calendar"><img src={cal} width="15" height="15" alt="pin" /> June 2020 - August 2020
                   </Badge>{' '}
               </h6>
-            Obtained a secret clearance for this position. Worked on migrating a web
-            application from Struts 1 to Struts 2. Wrote Java action classes for database access as
-            well as the scripts to connect the action classes to the front end.
+            Obtained a secret clearance for this position. Updated a mail and records tracking
+             web application from Struts 1 to Struts 2. Wrote Java action classes for database access as
+            well as the scripts to connect the action classes to the front end. Gained experience in HTML, JavaScript, Java,
+             and jQuery.
         </p>
         <p><strong>Software Development Intern</strong> <br />
           <h6><Badge pill className="company">
