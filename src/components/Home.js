@@ -14,29 +14,29 @@ class Home extends React.Component {
         August 2017 - December 2020<br/>
         GPA: 3.48/4.00</p>
       <h4>Technical Skills</h4>
-      <h5><Badge className="skill">Java</Badge>{' '}
-          <Badge className="skill">Python</Badge>{' '}
-          <Badge className="skill">HTML</Badge>{' '}
-          <Badge className="skill">JavaScript</Badge>{' '}
-          <Badge className="skill">CSS</Badge>{' '}
-          <Badge className="skill">SQL</Badge>{' '}
-          <Badge className="skill">ReactJS</Badge>{' '}
-          <Badge className="skill">JSON</Badge>{' '}
-          <Badge className="skill">Linux CLI</Badge>{' '}
-          <Badge className="skill">GitHub</Badge>{' '} <br />
+      <h5><Badge className="skill">Java</Badge>
+          <Badge className="skill">Python</Badge>
+          <Badge className="skill">HTML</Badge>
+          <Badge className="skill">JavaScript</Badge>
+          <Badge className="skill">CSS</Badge>
+          <Badge className="skill">SQL</Badge>
+          <Badge className="skill">ReactJS</Badge>
+          <Badge className="skill">JSON</Badge>
+          <Badge className="skill">Linux CLI</Badge>
+          <Badge className="skill">GitHub</Badge> <br />
     </h5>
       <h4>Work Experience</h4>
         <p><strong>Technical Intern</strong> <br />
           <h6><Badge pill className="company">
                 <img src={comp} width="15" height="15" hspace="5" alt="company" />
                   BAESystems
-              </Badge>{' '}
+              </Badge>
               <Badge pill className="location"><img src={pin} width="15" height="15" alt="pin" /> Washington, DC (Remote)
-                </Badge>{' '}
+                </Badge>
                 <Badge pill className="calendar"><img src={cal} width="15" height="15" alt="pin" /> June 2020 - August 2020
-                  </Badge>{' '}
+                  </Badge>
               </h6>
-            Obtained a secret clearance for this position. Updated a mail and records tracking
+            Obtained a secret security clearance for this position. Updated a mail and records tracking
              web application from Struts 1 to Struts 2. Wrote Java action classes for database access as
             well as the scripts to connect the action classes to the front end. Gained experience in HTML, JavaScript, Java,
              and jQuery.
@@ -44,11 +44,11 @@ class Home extends React.Component {
         <p><strong>Software Development Intern</strong> <br />
           <h6><Badge pill className="company">
               <img src={comp} width="15" height="15" hspace="5" alt="company" />
-                Freddie Mac</Badge>{' '}
+                Freddie Mac</Badge>
               <Badge pill className="location"><img src={pin} width="12" height="12" alt="pin" /> McLean, VA
-                </Badge>{' '}
+                </Badge>
               <Badge pill className="calendar"><img src={cal} width="15" height="15" alt="pin" /> May 2019 - August 2019
-                </Badge>{' '}
+                </Badge>
             </h6>
             Analyzed and documented legacy programs to support loan evaluation and validation.
             Gained experience with RapidSQL, Spring Boot, and Java.
