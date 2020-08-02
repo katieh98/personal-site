@@ -50,7 +50,7 @@ class Home extends React.Component {
               <Badge pill className="calendar"><img src={cal} width="15" height="15" alt="pin" /> May 2019 - August 2019
                 </Badge>
             </h6>
-            Strengthened techincal and professional skills by working with
+            Strengthened technical and professional skills by working with
             a software development team. Analyzed and documented legacy programs to support loan evaluation and validation.
             Gained experience with RapidSQL, Spring Boot, and Java.
         </p>
