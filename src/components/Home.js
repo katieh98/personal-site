@@ -50,7 +50,8 @@ class Home extends React.Component {
               <Badge pill className="calendar"><img src={cal} width="15" height="15" alt="pin" /> May 2019 - August 2019
                 </Badge>
             </h6>
-            Analyzed and documented legacy programs to support loan evaluation and validation.
+            Strengthened techincal and professional skills by working with
+            a software development team. Analyzed and documented legacy programs to support loan evaluation and validation.
             Gained experience with RapidSQL, Spring Boot, and Java.
         </p>
         <div> < br/>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
