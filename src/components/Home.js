@@ -15,6 +15,7 @@ class Home extends React.Component {
         GPA: 3.48/4.00</p>
       <h4>Technical Skills</h4>
       <h5><Badge className="skill">Java</Badge>
+          <Badge className="skill">C</Badge>
           <Badge className="skill">Python</Badge>
           <Badge className="skill">HTML</Badge>
           <Badge className="skill">JavaScript</Badge>
