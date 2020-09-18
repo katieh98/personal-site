@@ -8,7 +8,6 @@ class NavBar extends React.Component {
       <div className="center-navbar">
         <Navbar>
           <Navbar.Brand href="/">Home</Navbar.Brand>
-          // <Navbar.Brand href="/About">About</Navbar.Brand>
           <Navbar.Brand href={pdf} target="_blank">Resume</Navbar.Brand>
           </Navbar>
           </div>
