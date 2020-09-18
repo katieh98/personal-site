@@ -7,6 +7,7 @@ import cal from "./images/calendar.png"
 class Home extends React.Component {
   render() {
     return (<div className="container">
+      <br /> <br />
     <h3>Hello Visitor!</h3>
     <p>
       I'm an undergraduate student at Virginia Tech pursuing my degree in Computer Science.
