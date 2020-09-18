@@ -7,7 +7,7 @@ import { WindupChildren, Pause, Pace } from "windups";
 class About extends React.Component {
   render() {
     return (<div className="container"><br/><br/>
-            <h3><StringyWindup/></h3>
+            <h3>Hello Visitor!</h3>
             <p>
               I currently work at BAE Systems and have previously worked at Freddie Mac.
               I completed my undergraduate degree in Computer Science at <a href="https://vt.edu/">Virginia Tech</a>. When I'm not
