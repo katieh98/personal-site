@@ -7,7 +7,7 @@ import { WindupChildren, Pause, Pace } from "windups";
 class About extends React.Component {
   render() {
     return (<div className="container"><br/><br/>
-            <h3><StringyWindup/></h3>
+            <h3>Hello Visitor!</h3>
             <p>
               I'm an undergraduate student at Virginia Tech pursuing my degree in Computer Science.
               Currently, I live in Northern Virginia and am searching for full time employment after
