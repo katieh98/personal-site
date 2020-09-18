@@ -19,18 +19,6 @@ class About extends React.Component {
                My inbox is always open! Feel free to contact me whether it's to just say hi or ask questions.
                <br />Please feel free to make suggestions for the site since this is my first time using ReactJS!
             </p>
-
-            <Figure>
-              <Figure.Image
-                width={300}
-                height={300}
-                alt="Travel pic"
-                src={travel}
-                />
-            <Figure.Caption>
-              My last travel destination: Grand Cayman Islands
-              </Figure.Caption>
-              </Figure>
           </div>);
   }
 }
