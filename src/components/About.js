@@ -1,8 +1,22 @@
 import React from 'react'
 import travel from "./images/cayman.JPG"
 import Figure from 'react-bootstrap/Figure'
+import Gallery from "react-photo-gallery";
 
 import { WindupChildren, Pause, Pace } from "windups";
+
+const photos = [
+    {
+      src: "./images/boba.JPG",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "./images/cascades.JPG",
+      width: 1,
+      height: 1
+    }
+];
 
 class About extends React.Component {
   render() {
@@ -13,27 +27,19 @@ class About extends React.Component {
             I completed my undergraduate degree in Computer Science at <a href="https://vt.edu/">Virginia Tech</a>.
              <br /><br />
             </p>
-
-            <Figure>
-              <Figure.Image
-                width={300}
-                height={300}
-                alt="Travel pic"
-                src={travel}
-                />
-            <Figure.Caption>
-              My last travel destination: Grand Cayman Islands
-  </Figure.Caption>
-</Figure>
-          </div>);
+          </div>
+          <Gallery photos={photos} />
+        );
   }
 }
 
 const StringyWindup = () => {
   return (
     <WindupChildren >
+    <Pace ms = {50}>
       {"Hello Visitor!"}
       < Pause ms={100} />
+      </Pace>
     </WindupChildren>
   );
 };
