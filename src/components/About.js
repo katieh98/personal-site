@@ -40,7 +40,7 @@ const StringyWindup = () => {
       {"Hello Visitor!"}
       < Pause ms={100} />
       </Pace>
-    </WindupChildren>
+    </WindupChildren>);
 };
 
 }
