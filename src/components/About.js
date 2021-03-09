@@ -28,11 +28,10 @@ class About extends React.Component {
                <br /><br />
                My inbox is always open! Feel free to contact me whether it's to just say hi or ask questions.
             </p>
+            <Gallery photos={photos}/>;
           </div>);
   }
 }
-
-const var list = {'foodie!', 'movie lover!', 'adoptee!', 'anime watcher!', 'runner!', 'Software Engineer!'}
 
 const StringyWindup = () => {
   return (
