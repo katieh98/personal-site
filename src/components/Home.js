@@ -24,6 +24,7 @@ class Home extends React.Component {
     <Badge className="skill">Linux CLI</Badge>
     <Badge className="skill">GitHub</Badge> <br />
 </h5>
+<br />
 
     {/*}  <br /> <br />
       <h4>Education</h4>
@@ -81,10 +82,10 @@ class Home extends React.Component {
 const Hello = () => {
   return (
     <WindupChildren >
-    <Pace ms = {50}>
-      {"Today "}
+    <Pace ms = {70}>
+      {"Today, "}
       </Pace>
-    < Pause ms={100} />
+    < Pause ms={150} />
       <Pace ms = {50}>
       {"I am a Software Engineer."}
       </Pace>

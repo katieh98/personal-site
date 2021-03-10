@@ -12,7 +12,7 @@ class About extends React.Component {
               I currently work at BAE Systems and have previously worked at Freddie Mac.
               I completed my undergraduate degree in Computer Science at <a href="https://vt.edu/">Virginia Tech</a>. When I'm not
               working I enjoy cooking, trying new foods, watching anime, and playing Sims 4! If you're intersted in my food adventures,
-              feel free to check out my <a href="https://www.instagram.com/foodbykth/"> Instagram</a>.
+              feel free to check out my <a href="https://www.instagram.com/foodbykth/" target="_blank"> Instagram</a>.
                <br /><br />
                My inbox is always open! Feel free to contact me through <a href="https://www.linkedin.com/in/kate-harold/" target="_blank">LinkedIn </a>
                or <a href="mailto:kate.harold@pm.me">email</a> if you'd like to chat!

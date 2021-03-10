@@ -12,7 +12,7 @@ export const photos = [
   },
 
   {
-    src: "https://i.ibb.co/xgrxNqW/sunflower.jpg",
+    src: "https://i.ibb.co/HXBXfPr/IMG-4010.jpg",
     width: 2,
     height: 3
   },
