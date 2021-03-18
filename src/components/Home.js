@@ -3,24 +3,29 @@ import Badge from 'react-bootstrap/Badge'
 import pin from "./images/pin.png"
 import comp from "./images/company.png"
 import cal from "./images/calendar.png"
+import { WindupChildren, Pause, Pace } from "windups";
 
 class Home extends React.Component {
   render() {
     return (<div className="container">
-      <br /> <br />
-    <h3>Hello Visitor!</h3>
-    <p>
-      I'm an undergraduate student at Virginia Tech pursuing my degree in Computer Science.
-      Currently, I live in Northern Virginia and am searching for full time employment after
-      I graduate in December 2020. I have experience with software development through
-       my internships and personal projects but am always looking to learn more. My
-        interests include watching movies, cooking, traveling (even though I haven't gone many
-       places), and playing games with friends.
-       <br /><br />
-       My inbox is always open! Feel free to contact me whether it's to just say hi or ask questions.
-       <br />Please feel free to make suggestions for the site since this is my first time using ReactJS!
-    </p>
-      <br /> <br />
+    <br /><br /><br />
+          <h1><Hello/></h1>
+<br />
+<br />
+<h4>Technical Skills</h4>
+<h5><Badge className="skill">Java</Badge>
+    <Badge className="skill">Python</Badge>
+    <Badge className="skill">C</Badge>
+    <Badge className="skill">JavaScript</Badge>
+    <Badge className="skill">CSS</Badge>
+    <Badge className="skill">SQL</Badge>
+    <Badge className="skill">HTML</Badge>
+    <Badge className="skill">Linux CLI</Badge>
+    <Badge className="skill">GitHub</Badge> <br />
+</h5>
+<br />
+
+    {/*}  <br /> <br />
       <h4>Education</h4>
         <p><strong>B.S. Computer Science</strong><br/>
         Virgina Tech, Blacksburg, VA<br/>
@@ -28,7 +33,6 @@ class Home extends React.Component {
         GPA: 3.48/4.00</p>
       <h4>Technical Skills</h4>
       <h5><Badge className="skill">Java</Badge>
-          <Badge className="skill">C</Badge>
           <Badge className="skill">Python</Badge>
           <Badge className="skill">HTML</Badge>
           <Badge className="skill">JavaScript</Badge>
@@ -64,14 +68,27 @@ class Home extends React.Component {
               <Badge pill className="calendar"><img src={cal} width="15" height="15" alt="pin" /> May 2019 - August 2019
                 </Badge>
             </h6>
-            Strengthened technical and professional skills by working with
-            a software development team. Analyzed and documented legacy programs to support loan evaluation and validation.
+            Analyzed and documented legacy programs to support loan evaluation and validation.
             Gained experience with RapidSQL, Spring Boot, and Java.
         </p>
         <div> < br/>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-       <br /></div>
+       <br /> */}
+    </div>
     );
   }
 }
+
+const Hello = () => {
+  return (
+    <WindupChildren >
+    <Pace ms = {70}>
+      {"Today, "}
+      </Pace>
+    < Pause ms={150} />
+      <Pace ms = {50}>
+      {"I am a Software Engineer."}
+      </Pace>
+    </WindupChildren>);
+};
 
 export default Home

@@ -1,24 +1,24 @@
 import React from 'react'
-import travel from "./images/cayman.JPG"
-import Figure from 'react-bootstrap/Figure'
+import Gallery from "react-photo-gallery";
+import { photos } from "./Photos"
 
 import { WindupChildren, Pause, Pace } from "windups";
 
 class About extends React.Component {
   render() {
     return (<div className="container"><br/><br/>
-            <h3>Hello Visitor!</h3>
+            <h3><StringyWindup/></h3>
             <p>
-              I'm an undergraduate student at Virginia Tech pursuing my degree in Computer Science.
-              Currently, I live in Northern Virginia and am searching for full time employment after
-              I graduate in December 2020. I have experience with software development through
-               my internships and personal projects but am always looking to learn more. My
-                interests include watching movies, cooking, traveling (even though I haven't gone many
-               places), and playing games with friends.
+              I currently work at BAE Systems and have previously worked at Freddie Mac.
+              I completed my undergraduate degree in Computer Science at <a href="https://vt.edu/">Virginia Tech</a>. When I'm not
+              working I enjoy cooking, trying new foods, watching anime, and playing Sims 4! If you're intersted in my food adventures,
+              feel free to check out my <a href="https://www.instagram.com/foodbykth/" target="_blank"> Instagram</a>.
                <br /><br />
-               My inbox is always open! Feel free to contact me whether it's to just say hi or ask questions.
-               <br />Please feel free to make suggestions for the site since this is my first time using ReactJS!
+               My inbox is always open! Feel free to contact me through <a href="https://www.linkedin.com/in/kate-harold/" target="_blank">LinkedIn </a>
+               or <a href="mailto:kate.harold@pm.me">email</a> if you'd like to chat!
             </p>
+            <h4>Here are some photos from my life!</h4>
+            <Gallery photos={photos}/>
           </div>);
   }
 }
@@ -26,13 +26,11 @@ class About extends React.Component {
 const StringyWindup = () => {
   return (
     <WindupChildren >
-      {"Hello Visitor! "}
+    <Pace ms = {50}>
+      {"Hello Visitor!"}
       < Pause ms={100} />
-      <Pace ms={50}>
-        {"My name is Kate Harold"}
       </Pace>
-    </WindupChildren>
-  );
+    </WindupChildren>);
 };
 
 export default About
