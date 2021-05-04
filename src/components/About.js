@@ -10,7 +10,7 @@ class About extends React.Component {
             <h3>Hello Visitor!</h3>
             <p>
               I currently work at BAE Systems and have previously worked at Freddie Mac.
-              I completed my undergraduate degree in Computer Science at <a href="https://vt.edu/">Virginia Tech</a>. When I'm not
+              I completed my undergraduate degree in Computer Science at <a href="https://vt.edu/">Virginia Tech</a> in December 2020. When I'm not
               working I enjoy cooking, trying new foods, watching anime, and playing Sims 4! If you're intersted in my food adventures,
               feel free to check out my <a href="https://www.instagram.com/foodbykth/" target="_blank"> Instagram</a>.
                <br /><br />
